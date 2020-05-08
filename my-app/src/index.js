@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import ChatApp from './01/ChatApp'
+import TabS from './02/TabSelector'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
