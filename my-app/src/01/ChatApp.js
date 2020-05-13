@@ -1,5 +1,5 @@
 import React from "react";
-
+import withTimer from '../06/withTimer'
 class MessageList extends React.PureComponent {
   render() {
     return <ul>{this.props.messages.map(msg => <li>{msg}</li>)}</ul>;
@@ -38,12 +38,13 @@ export class ChatApp extends React.Component {
           />
           <button onClick={this.handleSend}>Send</button>
         </div>
+        <h2>{this.props.date.toLocaleString()}</h2>
       </div>
     );
   }
 }
 
-export default ChatApp;
+export default withTimer(ChatApp);
 //受控组件，通过外部控制他
 //react组件
 //外部传来的属性props+自身维护的状态state=view
