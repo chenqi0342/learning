@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import ChatApp from './01/ChatApp'
 import TabS from './02/TabSelector'
+import Clock from './04/Clock'
+import SnapshotSample from './04/SnapshotSample'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ChatApp />
+    <SnapshotSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
