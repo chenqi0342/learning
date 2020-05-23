@@ -7,11 +7,13 @@ import TabS from './02/TabSelector'
 import Clock from './04/Clock'
 import SnapshotSample from './04/SnapshotSample'
 import LocaleSample from './07/LocaleSample'
+import Example from './10/hooks'
+import FriendStatus from './10/hooks'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LocaleSample />
+    <Example />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -2,4 +2,3 @@
 //create react app   
 //codesandbox
 //rekit
-//使用脚手架的好处
